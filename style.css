@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* UNIVERSAL BODY STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #30d5c7ce;
+
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.eg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+}
+
+.eg h6 {
+    color: black !important;
+    background-color: #30d5c7ce;
+    
+}
+
+/* Input STYLE */
+.main1 {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: -2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -8%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.main1 label,
+.main2 label {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.main1 input,
+.main2 input {
+    color: black;
+    caret-color: #30d5c7ce;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+    margin: 10px;
+
+}
+
+.main1 input:focus,
+.main2 input:focus {
+    border: 2px solid #30d5c7ce;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 1vh;
+
+}
+
+.btns a {
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 4px;
+    text-decoration: none;
+
+}
+
+.btns a:first-child {
+    margin-right: 5px;
+}
+
+
+.checking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.icons img {
+    width: 40px;
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .main1{
+     margin-top: -10%;   
+     
+    }
+    .main2 label{
+        height: 4vh;
+        margin-top: 8%;
+    }
+    .checking{
+        margin-top: -12%;
+        margin-bottom: -10%;
+        position: fixed;
+
+        margin left: 30%;
+
+        margin-left: 8%;
+        white-space: nowrap;
+
+    }
+    .btns{
+        margin-top: 20%;
+        position: fixed;
+
+        margin-left: 30%;
+       
+
+        margin-left: 22%;
+
+    }
+    .btns img{
+        width: 10px;
+    }
+ footer{
+  margin-top: 10%;
+  
+ }
+ .icons img{
+     width: 20px;
+ }
+}
