@@ -118,41 +118,28 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px){
-    .main1{
-     margin-top: -10%;   
-     
-    }
+@media only screen and (max-width: 648px){
+.eg{
+    margin-bottom: -10%;
+    height: 20vh;
+}
     .main2 label{
         height: 4vh;
         margin-top: 8%;
     }
     .checking{
-        margin-top: -12%;
-        margin-bottom: -10%;
-        position: fixed;
-
-        margin left: 30%;
-
-        margin-left: 8%;
-        white-space: nowrap;
-
+        margin-top: -8%;
+        margin-left: 20px;
     }
     .btns{
-        margin-top: 20%;
-        position: fixed;
-
-        margin-left: 30%;
-       
-
-        margin-left: 22%;
+        margin-top: -8%;
 
     }
     .btns img{
         width: 10px;
     }
  footer{
-  margin-top: 10%;
+  margin-top: -2%;
   
  }
  .icons img{
